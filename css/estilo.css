@@ -1,0 +1,193 @@
+html {
+  font-size: 16px;
+  background: #f8f6f7;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 8em;
+  
+}
+
+#number1{
+  color: #f35926;
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+#number2{
+  color:#fcb929;
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+#number3{
+  color: #00b049;
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+#viagens {
+  color: black;
+}
+
+.menu-links {
+  display: flex;
+  margin-right: 7em;
+}
+
+.menu-links a {
+  margin: 1em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  color: black;
+  background-color: white;
+  gap: 50px;
+}
+
+header {
+  min-width: 900px;
+  color: white;
+}
+
+.container-barco {
+  position: relative;
+}
+
+.container-barco img {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f6f7;
+}
+
+.form-container {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items:last baseline;
+  justify-content: space-around;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 75%;
+  height: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.titulo-passagens {
+  display: flex;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-310px, -2em);
+  color: black;
+  font-weight: bold;
+  z-index: 1; 
+}
+
+.form-container input,
+.form-container button {
+  margin: 5px;
+  font-size: 0.7em;
+  height: 20%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 0.1em;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ea3d35;
+  color: white;
+  font-weight: bold;
+  font-size: 80%;
+  width: 50%;
+  border-radius: 0.2em;
+  border: none;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.titulo-grid {
+  font-weight: bold;
+  font-size: 110%;
+  margin: 2em 8em 1em 7.5em;
+}
+
+.image-grid {
+  display: grid;
+  margin: 1em 8em 2em 8em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+
+.image-grid img {
+  border-radius: 0.5em;
+  width: 170px; 
+  height: 150px; 
+  object-fit: cover;
+}
+
+.container-voos {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cidade {
+  position: absolute;
+  font-weight: bolder;
+  width: 80%;
+  font-size: 95%;
+  text-shadow: 1px 1px #333;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.preço {
+  position: absolute;
+  font-weight: bolder;
+  font-size: 150%;
+  text-shadow: 1px 1px #333;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myButton {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  box-shadow: 1px 1px #333;
+  background-color: white;
+  font-size: 0.6em;
+  border-radius: 10em;
+  width: 12em;
+  height: 3em;
+  transform: translate(-50%, -50%);
+}
+
